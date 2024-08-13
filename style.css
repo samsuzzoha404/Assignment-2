@@ -38,6 +38,9 @@ nav{
     margin-top: 34px;
     color: rgb(230, 83, 60);
 }
+.logo h1:hover{
+    color: whitesmoke;
+}
 .nav-list{
     display: flex;
     position: relative;
@@ -53,6 +56,9 @@ nav{
     font-weight: 400;
     color: white;
 }
+.nav-list a:hover{
+    color: #E6533C;
+}
 .nav-list li{
     list-style: none;
 }
@@ -61,6 +67,9 @@ nav{
     border: none;
     border-radius: 36px;
     background-color:rgb(230, 83, 60);
+}
+#home:hover{
+    color: black;
 }
 
 /* Hero-Section */
@@ -99,6 +108,12 @@ nav{
     border: none;
     font-size: .9rem;
     color: white;
+}
+.btn-1:hover{
+    box-shadow: 0 5px 20px rgb(244, 3, 3);
+}
+.btn-2:hover{
+    box-shadow: 0 5px 20px rgb(255, 255, 255);
 }
 .btn-2{
     padding: 12px 30px 12px 28px;
@@ -190,6 +205,11 @@ nav{
 .card3{
     margin: 0 20px;
 }
+.card3 img:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+    border-radius: 50%;
+}
 .habit-card{
     display: flex;
     width: 80%;
@@ -248,6 +268,11 @@ nav{
     margin-right: 10px;
     width: 100%;
 }
+.run-main img:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgba(219, 212, 212, 0.421);
+    border-radius: 30px;
+}
 
 .run-main button {
     padding: 10px 40px 10px 40px;
@@ -257,6 +282,11 @@ nav{
     font-size: 0.938rem;
     color: white;
     margin-top: 10px;
+}
+.run-main button:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgba(223, 218, 218, 0.459);
+    border-radius: 10px;
 }
 
 /* BMI Calculator */
@@ -448,6 +478,36 @@ th{
     background-size: cover;
     border-radius: 18px;
 }
+.team-1:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
+.team-2:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
+.team-3:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
+.team-4:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
+.team-5:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
+.team-6:hover{
+    border: none;
+    box-shadow: 0 5px 20px rgb(146, 143, 143);
+    border-radius: 18px;
+}
 
 /* footer section */
 footer{
@@ -458,6 +518,9 @@ footer{
     display: flex;
     width: 80%;
     margin: 0 auto;
+}
+footer h1:hover{
+    color: red;
 }
 .footer p{
     color: white;
@@ -507,4 +570,7 @@ footer{
 }
 .copyright h2 {
     font-size: 1.063rem;
+}
+.copyright:hover{
+    color: red;
 }

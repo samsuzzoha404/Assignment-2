@@ -1,0 +1,216 @@
+@media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+    }
+    .nav-list{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin: 10px 30px;
+        justify-content: space-between;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+        padding: 44px 0 0 95px;
+    }
+    .main-header {
+        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    }
+    .first-part {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 70px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .first-text h1 {
+        font-size: 2.25rem;
+    }
+    .first-text {
+        padding-top: 17px;
+    }
+    .first-text p {
+        width: 99%;
+    }
+    
+    .first-part-img {
+        margin-top: 0;
+    }
+    .first-part img {
+        width: 100%;
+    }
+    .card1 {
+        top: 70%;
+        left: -9%;
+    }
+    .card2 h3 {
+        font-size: 1.5rem;
+    }
+    .card2 {
+        position: absolute;
+        width: 136px;
+        height: 80px;
+        border-radius: 12px;
+        backdrop-filter: blur(2px);
+        background: rgba(48, 48, 48, 0.54);
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px 0 19px;
+        top: 15%;
+        left: 54%;
+    }
+    .card2 {
+        top: 28%;
+        left: 48%;
+    }
+    .habit-main {
+        margin: 0 auto;
+    }
+    .habit-text {
+        width: 97%;
+    }
+    .btn-1 {
+        padding: 12px 16px 12px 16px;
+        margin-left: -5px;
+    }
+    .btn-2 {
+        padding: 11px 18px 11px 18px;
+
+    }
+    .habit-text h1 {
+        font-size: 2.125rem;
+    }
+    .habit-card {
+        display: flex;
+        width: 90%;
+        margin: 0 auto 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .card3 {
+        width: 91%;
+        margin: 20px auto;
+    }
+    .run-main {
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        height: auto;
+        padding: 40px 24px;
+        flex-direction: column;
+    }
+    .run-main img {
+        height: auto;
+        width: 100%;
+        border-radius: 18px;
+    }
+    .run-text {
+        width: 100%;
+
+        text-align: center;
+    }
+    .run-text p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 24px;
+        width: 80%;
+        margin: 25px 0;
+        text-align: left;
+    }
+    .run-text h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: left;
+    }
+    .run-main button {
+        margin-bottom: 20px;
+        padding: 17px 100px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 93%;
+    }
+    .Calculator {
+        width: 81%;
+        margin: 28px auto;
+        text-align: center;
+    }
+    .Calculator h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 12px;
+    }
+    .chart-main {
+        background: rgb(34, 34, 34);
+        padding: 40px 0px 50px 21px;
+        display: flex;
+        flex-direction: column;
+    }
+    .chart-main h1 {
+        font-size: 1.25rem;
+    }
+    .calculator {
+        width: 90%;
+        margin-top: 32px;
+    }
+    .input-box {
+        grid-template-columns: repeat(2,53%);
+    }
+    
+    .team-box {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 0 5px 0;
+        flex-direction: column;
+    }
+    #box-2 {
+        padding-top: 0px;
+    }
+    .team {
+        width: 88%;
+        height: auto;
+        margin: 11px auto;
+    }
+    .team p {
+        color: #e4dedece;
+        padding-bottom: 16px;
+    }
+    footer {
+        padding: 70px 0 20px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer p {
+        color: white;
+        width: 100%;
+    }
+    .footer-menu {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .footer-menu-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer {
+        display: flex;
+        width: 79%;
+        margin: 0 auto;
+    }
+    .copyright {
+        font-size: 0.625rem;
+    }
+    main{
+        width: 100%;
+    }
+}

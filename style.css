@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+.span-style {
+    font-family: "Playwrite CU", cursive;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* Default style */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+.main-header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    margin-top: -20px;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+.logo h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 34px;
+    color: rgb(230, 83, 60);
+}
+.nav-list{
+    display: flex;
+    position: relative;
+    margin-top: 33px;
+    padding: 12px 20px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 36px;
+}
+.nav-list li a{
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: white;
+}
+.nav-list li{
+    list-style: none;
+}
+#home{
+    margin-left: -14px;
+    border: none;
+    border-radius: 36px;
+    background-color:rgb(230, 83, 60);
+}
+
+/* Hero-Section */
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.first-text{
+    padding-top: 17px;
+    padding-bottom: 37px;
+}
+.first-text h1{
+    font-size: 4.188rem;
+    font-weight: 900;
+    color: white;
+}
+.first-text p{
+    width: 64%;
+    margin: 20px 0;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.first-part img{
+    height: 100%;
+}
+.first-part-img{
+    position: relative;
+}
+.btn-1 {
+    padding: 12px 30px 12px 28px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: .9rem;
+    color: white;
+}
+.btn-2{
+    padding: 12px 30px 12px 28px;
+    border-radius: 42px;
+    background: none;
+    border: 1px solid white;
+    font-size: .9rem;
+    color: white;
+    margin-left: 10px;
+}
+.card1 {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 67%;
+    left: -42%;
+}
+.first-card {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin: 0 15px;
+}
+.first-card2 h3{
+    color: rgb(176, 160, 160);
+    font-size: 24px;
+    font-weight: 900;
+}
+.first-card2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(207, 193, 193);
+}
+
+.card2 h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.card2 {
+    position: absolute;
+    width: 170px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 30px;
+    top: 15%;
+    left: 54%;
+}
+.card2 p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(140, 133, 133);
+}
+
+/* Habit */
+.habit-main{
+    width: 84%;
+    margin: 0 auto;
+}
+.habit-text{
+    width: 50%;
+    margin: 59px auto 40px;
+    text-align: center;
+}
+.habit-text h1{
+    color: white;
+    margin: 10px 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.habit-text p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.card3{
+    margin: 0 20px;
+}
+.habit-card{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.habit-card img{
+    border: 5px solid #1A1A1A;
+    border-radius: 50%;
+}
+.habit-card h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+}
+.habit-card p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Run extra miles */
+.run-main{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    height: auto;
+    margin: 100px auto 70px;
+    padding: 40px 50px;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+.run-text{
+    width: 50%;
+}
+.run-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.run-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875;
+    font-weight: 400;
+    line-height: 24px;
+    width: 80%;
+    margin: 25px 0;
+}
+
+.run-main img {
+    height: 100%;
+    border-radius: 30px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.run-main button {
+    padding: 10px 40px 10px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 0.938rem;
+    color: white;
+    margin-top: 10px;
+}
+
+/* BMI Calculator */
+
+.Calculator{
+    width: 50%;
+    margin: 50px auto 70px;
+}
+.Calculator h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.Calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* BMI Calculator Chart */
+
+.chart-main {
+    margin: 0 auto 50px;
+    background: rgb(34, 34, 34);
+    padding: 40px 120px 50px 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.chart-main h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 52px;   
+}
+
+table {
+    border-collapse: collapse;
+    width: 368px;
+}
+td, th {
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    text-align: left;
+    padding: 13px 0 13px 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.calculator{
+    width: 55%;
+}
+
+.calculator h1{
+    font-size: 1.75rem;
+}
+
+.calculator p {
+    margin: 10px 0 28px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.input-box input, select {
+    padding: 12px 13px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 6.4px; 
+    font-weight: 200;
+}
+
+
+#activity-factor-select{
+    grid-column: 1 / span 2;
+}
+
+.input-box input::placeholder, select{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.calculator .calculate-btn {
+    padding: 13px 0;
+    width: 33%;
+    margin-top: 24px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 80px;
+    font-size: 0.813rem;
+    cursor: pointer;
+}
+
+/* Meet Our Team */
+.team-section{
+    margin-bottom: 70px;
+}
+.team-main{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.team-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 5px 0;
+}
+#box-2 {
+    padding-bottom: 30px;
+}
+
+.team h3 {
+    color: white;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.team p {
+    color: #afa7a7ce;
+}
+.team{
+    width: 326.67px;
+    height: 272px;
+}
+.trainer {
+    padding: 214px 0 0 20px;
+}
+.team-1{
+    background-image: url(./images/trainer1.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-2{
+    background-image: url(./images/trainer2.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-3{
+    background-image: url(./images/trainer3.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-4{
+    background-image: url(./images/trainer4.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-5{
+    background-image: url(./images/trainer5.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-6{
+    background-image: url(./images/trainer6.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+/* footer section */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 70px 0 40px;
+}
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer p{
+    color: white;
+    width: 60%;
+}
+.footer-logo {
+    width: 47%;
+}
+.footer-menu {
+    width: 24%;
+}
+.footer-menu-2{
+    width: 24%;
+}
+.footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-item li {
+    margin-top: 17px;
+    list-style: none;
+}
+.footer-item li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-logo h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+}
+
+.footer-border{
+    border: 2px solid rgba(255, 255, 255, 0.1);    width: 80%;
+    margin: 40px auto;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+}
+.copyright h2 {
+    font-size: 1.063rem;
+}
